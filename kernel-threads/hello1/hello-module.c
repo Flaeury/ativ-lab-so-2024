@@ -25,7 +25,7 @@ int init_module(void)
 
 void cleanup_module(void)
 {
-  printk(KERN_ALERT "Goodbye world 1.\n");
+  printk(KERN_ALERT "Bye World 1.\n");
 }  
 
 MODULE_LICENSE("GPL");

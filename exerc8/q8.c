@@ -15,7 +15,7 @@ int thread_function(void * arg) {
   // kthread_should_stop call is important.
   while (!kthread_should_stop()) {
     printk(KERN_INFO "Thread %d (PID: %d) Still running...! %d secs\n", pid, current->pid, i);
-    printk(KERN_INFO "Galera da UFPA ESTEVE AQUI!!! O PID e :  %d \n",current->pid);
+    printk(KERN_INFO "Sou uma mensagem! O PID e :  %d \n",current->pid);
     i++;
     if (i == 30)
       break;

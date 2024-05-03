@@ -8,13 +8,13 @@
 
 static int olaMundo(void)
 {
-   printk(KERN_ALERT "Ola Mundo! Abracos da galera da ufpa\n");
+   printk(KERN_ALERT "Esse é um Olá Mundo! Até mais\n");
    return 0;
 }
 
 static void tchauMundo(void)
 {
-   printk(KERN_ALERT "Tchau Mundo! A galera da ufpa d se despede!!!\n");
+   printk(KERN_ALERT "Esse é um Tchau Mundo! Até a próxima\n");
 }
 
 module_init(olaMundo);
